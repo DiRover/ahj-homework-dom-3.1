@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+#field {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    cursor: url("../img/hammer.png"), default;    
+}
+
+.cooperate {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.field_cell {
+    border: 2px solid black;
+    width: calc(25% - 4px);
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+}
+
+.img {
+    display: block;
+    height: 100%;
+    margin: auto;
+}
+
+#container{
+    display: block;
+}
+
+#title {
+    font-size: 5rem;
+    width: 600px;
+    margin: 40vh auto;
+}
