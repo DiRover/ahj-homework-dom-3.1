@@ -1,17 +1,16 @@
+/* eslint-disable import/no-cycle */
+/* eslint-disable import/prefer-default-export */
 // получаем поле
 import getRandom from './getRandom';
 import getField from './getField';
-import hitGoblin from './hitGoblin'
+import hitGoblin from './hitGoblin';
 
 getField();
 
-const container = document.getElementById('container');
+export const container = document.getElementById('container');
 const cells = document.getElementsByClassName('field_cell');
 
-
 container.addEventListener('click', hitGoblin);
-
-
 
 // получаем рандомный индекс
 let index = getRandom(0, (cells.length - 1));
