@@ -2,4 +2,4 @@
 
 
 
-[PAGE Task 3.1 Events](https://dirover.github.io/ahs-homework-dom-2.1/)
+[PAGE Task 3.1 Events](https://dirover.github.io/ahj-homework-dom-3.1/)
