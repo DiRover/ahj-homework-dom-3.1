@@ -47,4 +47,4 @@ function replaceGoblin() {
   cells[index].classList.add('active');
 }
 
-setInterval(replaceGoblin, 3000);
+setInterval(replaceGoblin, 1000);
